@@ -1,5 +1,4 @@
-# DataMining
-Data Mining | Supervised Learning Methods to classify the Quality of Red Wine
+# Data Mining | Supervised Learning Methods to classify the Quality of Red Wine
 
 ## Table of Contents
 - [Overview](#Overview)
