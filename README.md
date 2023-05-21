@@ -3,6 +3,10 @@ Data Mining | Supervised Learning Methods to classify the Quality of Red Wine
 
 ## Table of Contents
 - [Overview](#Overview)
+- [Data Description](#Data-Description)
+- [Problem Statement](#Problem-Statement)
+- [The Approach and Machine learning Models used](#The-Approach-and-Machine-learning-Models-used)
+- [Result](#Result)
 
 ## Overview
 Throughout centuries of history, wine has retained its status as a cherished beverage enjoyed across the globe. However, the evaluation of wine quality historically relied on subjective and time-consuming methods. Consequently, our aim was to employ data-driven approaches, including machine learning, to classify wine quality by utilizing measurable physicochemical attributes. 
@@ -26,7 +30,7 @@ To achieve this, we analyzed a dataset of red wine samples, conducted data clean
 	•	Alcohol.             : Percent of alcohol in wine
 	•	Quality.             : Categorical value on a scale between 3 and 8, higher values denote higher quality
   
-  ## Problem Statement
+## Problem Statement
   • To be able to classify the quality of wine based on its physicochemical properties.
   
 The intended audience for this project includes winemakers, wine experts, and wine sellers. They can use the analysis results to determine which chemical features are important in determining the quality of red wine. The predictions of this project can also help identify the right price for the right quality of wine. In addition, the results can also help stakeholders devise appropriate marketing plans according to the quality of wines.
