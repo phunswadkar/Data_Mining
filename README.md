@@ -6,6 +6,8 @@ Throughout centuries of history, wine has retained its status as a cherished bev
 
 To achieve this, we analyzed a dataset of red wine samples, conducted data cleaning, partitioned the data, and trained several supervised learning algorithms which include Classification Tree, Ordinal Logistic Regression and Neural Network Model. Our primary objective was to demonstrate the potential of these techniques in classifying wine quality and to gain valuable insights into the physicochemical factors that impact the quality of red wine.
 
+![Image]()
+
 ## Data Description:
 	•	Fixed Acidity        : Volume of acids in a sample measured in grams per cubic decimeter (g/dm3)
 	•	Volatile Acidity.    : Volume of acetic acid in a sample measured by (g/dm3)
