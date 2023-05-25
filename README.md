@@ -1,4 +1,4 @@
-# Data Mining | Supervised Learning Methods to classify the Quality of Red Wine
+# Data Mining | Supervised Learning Methods to predict the Quality of Red Wine
 
 ## Table of Contents
 - [Overview](#Overview)
@@ -8,9 +8,9 @@
 - [Result](#Result)
 
 ## Overview
-Throughout centuries of history, wine has retained its status as a cherished beverage enjoyed across the globe. However, the evaluation of wine quality historically relied on subjective and time-consuming methods. Consequently, our aim was to employ data-driven approaches, including machine learning, to classify wine quality by utilizing measurable physicochemical attributes. 
+Throughout centuries of history, wine has retained its status as a cherished beverage enjoyed across the globe. However, the evaluation of wine quality historically relied on subjective and time-consuming methods. Consequently, our aim was to employ data-driven approaches, including machine learning, to predict wine quality by utilizing measurable physicochemical attributes. 
 
-To achieve this, we analyzed a dataset of red wine samples, conducted data cleaning, partitioned the data, and trained several supervised learning algorithms which include Classification Tree, Ordinal Logistic Regression and Neural Network Model. Our primary objective was to demonstrate the potential of these techniques in classifying wine quality and to gain valuable insights into the physicochemical factors that impact the quality of red wine.
+To achieve this, we analyzed a dataset of red wine samples, conducted data cleaning, partitioned the data, and trained several supervised learning algorithms which include Classification Tree, Ordinal Logistic Regression and Neural Network Model. Our primary objective was to demonstrate the potential of these techniques in predicting wine quality and to gain valuable insights into the physicochemical factors that impact the quality of red wine.
 
 ![Image](./RedWineQuality.png)
 
@@ -30,12 +30,12 @@ To achieve this, we analyzed a dataset of red wine samples, conducted data clean
 	•	Quality.             : Categorical value on a scale between 3 and 8, higher values denote higher quality
   
 ## Problem Statement
-  • To be able to classify the quality of wine based on its physicochemical properties.
+  • To be able to predict the quality of wine based on its physicochemical properties.
   
 The intended audience for this project includes winemakers, wine experts, and wine sellers. They can use the analysis results to determine which chemical features are important in determining the quality of red wine. The predictions of this project can also help identify the right price for the right quality of wine. In addition, the results can also help stakeholders devise appropriate marketing plans according to the quality of wines.
 
 ## The Approach and Machine learning Models used
-Our objective is to classify the quality of red wine which is an ordinal variable represented by quality_category using 11 predictor variables. Since there is a specific target to predict, this task will be considered supervised learning. In order to predict the quality of red wine, We used three different machine learning models: 
+Our objective is to predict the quality of red wine which is an ordinal variable represented by quality_category using 11 predictor variables. Since there is a specific target to predict, this task will be considered supervised learning. In order to predict the quality of red wine, We used three different machine learning models: 
 • Ordinal Logistic regression model (Specifically, since we have three categories low, medium, and high)
 • Classification Tree
 • Neural network model
